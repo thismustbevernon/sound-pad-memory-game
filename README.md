@@ -68,7 +68,7 @@ I am particularly curious about how the backend of a web application works becau
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
 Given more time, I'd add user-selectable difficulty levels, the ability to play the game for as long as the user wishes (the user can determine the pattern's length, which might be unlimited). I would also like to add a scoreboard that shows the length of the longest pattern the user has learned.
 Another interesting feature would be to include a volume slider to control the volume of the sounds from within the game itself. This would greatly sharpen my javascript skills.
-To be able to play the game on a mobile device, I would tweak the html and CSS to make it more responsive. Also to make it more interesting, I would add a feature where the computer generates a whole pattern of beats then the player tries to replicate the entire pattern.
+To be able to play the game on a mobile device, I would tweak the HTML and CSS to make it more responsive. Also to make it more interesting, I would add a feature where the computer generates a whole pattern of beats then the player tries to replicate the entire pattern.
 Some extra features like backgound images and button animations would be amazing to add.
 
 
