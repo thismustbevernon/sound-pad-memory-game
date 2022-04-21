@@ -1,0 +1,135 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+
+@import url('http://fonts.cdnfonts.com/css/warlow-sans');
+
+*{
+  margin: 0;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  padding-top: 2em;
+  background-color: #99cbe2;
+  color: #011627;
+}
+
+.title h1 {
+  color: #011627;
+  font-family: 'Warlow Sans', sans-serif;
+  text-align: center;                                               
+
+}
+
+.title{
+  margin-bottom: 40px;
+}
+
+/* The text area */
+.text{
+  margin-left: 20px;
+  font-family: 'Warlow Sans', sans-serif;
+}
+
+button{
+  padding : 10px;
+  border-radius : 10px;
+  font-family: 'Warlow Sans', sans-serif;
+  margin: 20px;
+}
+
+.text button{
+  background: transparent;
+  border: 2px solid #011627;
+}
+
+
+#gameButtonArea{
+    text-align:center;
+    padding: 10px;
+}
+
+#life{
+  font-size: 1em;
+  color: yellow;
+}
+
+/* beginning of game buttons styling*/
+
+#gameButtonArea > button{
+  width: 170px;
+  height : 170px;
+  margin : 8px;
+}
+
+#button1{
+  background-color: lightgreen;
+}
+
+#button2{
+  background-color: lightblue;
+}
+
+#button3{
+    background-color: pink;
+}
+
+#button4{
+    background-color: lightyellow;
+}
+
+#button5{
+    background-color: bisque;
+}
+
+#button6{
+    background-color: white;
+}
+
+
+#button1:active, #button1.lit{
+  background-color: green;
+}
+
+#button2:active, #button2.lit{
+  background-color: blue;
+}
+
+#button3:active, #button3.lit{
+    background-color: red;
+}
+
+#button4:active, #button4.lit{
+    background-color: yellow;
+}
+
+#button5:active, #button5.lit{
+    background-color: #FF9F1C;
+}
+
+#button6:active, #button6.lit{
+    background-color: black;
+}
+
+/* For hiding elements using javascript */
+.hidden{
+  display: none;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
