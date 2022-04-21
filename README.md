@@ -42,13 +42,13 @@ The following **additional** features are implemented:
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 
-                **Winning the game**
+                **Winning the mistakes**
 ![](https://i.imgur.com/bKDx4Fj.gif)
 
-                **Losing to mistakes**
+                **Losing to time**
 ![](https://i.imgur.com/9LdzsX1.gif)
 
-                **Losing to time**
+                **Winning the game**
 ![](https://i.imgur.com/oWMOoyR.gif)
 
 ## Reflection Questions
